@@ -87,4 +87,5 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 angle(): Angle between to vectors.
 
 UNITS:
+
 Units for "subject" and "activity" is factor and int for all the rest.
