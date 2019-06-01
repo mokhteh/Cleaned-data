@@ -21,21 +21,37 @@ For each record it is provided:
 "'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions."
 
 timeBodyAccelerometer-XYZ
+
 timeGravityAccelerometer-XYZ
+
 timeBodyAccelerometerJerk-XYZ
+
 timeBodyGyroscope-XYZ
+
 timeBodyGyroscopeJerk-XYZ
+
 timeBodyAccelerometerMagnitude
+
 timeGravityAccelerometerMagnitude
+
 timeBodyAccelerometerJerkMagnitude
+
 timeBodyGyroscopeMagnitude
+
 timeBodyGyroscopeJerkMagnitude
+
 frequencyBodyAccelerometer-XYZ
+
 frequencyBodyAccelerometerJerk-XYZ
+
 frequencyBodyGyroscope-XYZ
+
 frequencyBodyAccelerometerMagnitude
+
 frequencyBodyAccelerometerJerkMagnitude
+
 frequencyBodyGyroscopeMagnitude
+
 frequencyBodyGyroscopeJerkMagnitude
 
 The set of variables that were estimated from these signals are:
@@ -59,4 +75,4 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 angle(): Angle between to vectors.
 
 
-Units fot "subject" and "activity" is factor and int for all the rest.
+Units for "subject" and "activity" is factor and int for all the rest.
