@@ -9,12 +9,13 @@ For each record it is provided:
   
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+- A 68-feature vector with time and frequency domain variables including "subject" and "activity". 
 ""
 "These signals were used to estimate variables of the feature vector for each pattern:  "
 "'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions."
+
+Here are full features name used for this study:
+  ======================================
 
 timeBodyAccelerometer-XYZ
 
@@ -50,7 +51,8 @@ frequencyBodyGyroscopeMagnitude
 
 frequencyBodyGyroscopeJerkMagnitude
 
-The set of variables that were estimated from these signals are:
+The set of variables that were esti,ated from these signals are:
+  ======================================
 
 mean(): Mean value
 
@@ -86,6 +88,7 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 
 angle(): Angle between to vectors.
 
-UNITS:
+Units:
+  ======================================
 
 Units for "subject" and "activity" is factor and int for all the rest.
